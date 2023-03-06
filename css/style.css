@@ -1,0 +1,49 @@
+body{
+	color: #665544;
+	background-image: url("../img/backdrop.gif");
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+body > .wrapper{
+	width: 720px;
+}
+.wrapper{
+	margin-right: auto;
+	margin-left: auto;
+}
+figure{
+	width: 220px;
+	height: 170px;
+	background-color: #e7e3d8;
+	margin: 0;
+	padding: 9px;
+	text-align: left;
+}
+figure > img {
+	width: 200px;
+	height: 150px;
+	border: 1px solid #d6d6d6;
+}
+figure figcaption{
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+figure figcaption img{
+	width: 16px;
+	height: 16px;
+}
+.conjunt{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.entry{
+	width: 220px;
+	margin: 10px;
+	height: 198px;
+	display: flex;
+	justify-content: center;
+}
